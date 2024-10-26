@@ -33,24 +33,3 @@
 
 ---
 
-### **Instructions for Setting Up Animations**
-
-1. **GitHub Snake Game**: To set up the snake animation, create a `.github/workflows/snake.yml` file in your GitHub repository with the following configuration:
-
-   ```yml
-   name: Generate Snake
-
-   on:
-     schedule:
-       - cron: "0 0 * * *"  # Runs every day at midnight
-     workflow_dispatch:
-
-   jobs:
-     generate:
-       runs-on: ubuntu-latest
-       steps:
-         - uses: Platane/snk@v2
-           with:
-             github_token: ${{ secrets.GITHUB_TOKEN }}
-             svg_out_path: dist/github-contribution-grid-snake.svg
-
