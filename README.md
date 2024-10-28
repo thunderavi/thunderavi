@@ -60,7 +60,7 @@ A **Full Stack Developer** and **Machine Learning Enthusiast** from Bengaluru, I
 > 
 > 📦 GitHub Storage Used
 > 
-> 📜 10 Public Repositories 
+> 📜 42 Public Repositories 
 > 
 > 🔑 Private Repositories  
 
